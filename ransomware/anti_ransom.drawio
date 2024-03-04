@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T08:45:31.426Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="C7zP_--zrxPJYmhM4NNb" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-04T08:49:11.438Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="y4mlU7Q5Kfm8VaUQvn_x" version="23.1.5" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="640" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -644,11 +644,13 @@
         <mxCell id="cdsVnlFEJzLSIqNLkMDZ-182" value="anti_ransom_app" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="49" y="1120" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cdsVnlFEJzLSIqNLkMDZ-184" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cdsVnlFEJzLSIqNLkMDZ-185" target="cdsVnlFEJzLSIqNLkMDZ-190">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="cdsVnlFEJzLSIqNLkMDZ-184" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cdsVnlFEJzLSIqNLkMDZ-185" target="cdsVnlFEJzLSIqNLkMDZ-188">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="119" y="1690" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="cdsVnlFEJzLSIqNLkMDZ-185" value="bait hashlist init" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="49" y="1412" width="140" height="40" as="geometry" />
+        <mxCell id="cdsVnlFEJzLSIqNLkMDZ-185" value="init_anti_ransom" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="49" y="1620" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cdsVnlFEJzLSIqNLkMDZ-186" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cdsVnlFEJzLSIqNLkMDZ-192" target="cdsVnlFEJzLSIqNLkMDZ-187">
           <mxGeometry relative="1" as="geometry" />
@@ -660,13 +662,7 @@
           <mxGeometry x="49" y="1260" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cdsVnlFEJzLSIqNLkMDZ-188" value="end" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="49" y="1552" width="140" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="cdsVnlFEJzLSIqNLkMDZ-189" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cdsVnlFEJzLSIqNLkMDZ-190" target="cdsVnlFEJzLSIqNLkMDZ-188">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="cdsVnlFEJzLSIqNLkMDZ-190" value="install hook" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="49" y="1482" width="140" height="40" as="geometry" />
+          <mxGeometry x="49" y="1730" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cdsVnlFEJzLSIqNLkMDZ-191" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cdsVnlFEJzLSIqNLkMDZ-182" target="cdsVnlFEJzLSIqNLkMDZ-192">
           <mxGeometry relative="1" as="geometry">
@@ -681,22 +677,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cdsVnlFEJzLSIqNLkMDZ-193" value="init sysfilter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="1260" width="140" height="40" as="geometry" />
+          <mxGeometry x="241" y="1260" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cdsVnlFEJzLSIqNLkMDZ-198" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cdsVnlFEJzLSIqNLkMDZ-195" target="cdsVnlFEJzLSIqNLkMDZ-197">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cdsVnlFEJzLSIqNLkMDZ-195" value="get_anti_ransom_module" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="1352" width="140" height="40" as="geometry" />
+          <mxGeometry x="241" y="1351" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cdsVnlFEJzLSIqNLkMDZ-200" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cdsVnlFEJzLSIqNLkMDZ-197" target="cdsVnlFEJzLSIqNLkMDZ-199">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cdsVnlFEJzLSIqNLkMDZ-197" value="get_anti_ransom_krnl_ver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="1440" width="140" height="40" as="geometry" />
+          <mxGeometry x="241" y="1441" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cdsVnlFEJzLSIqNLkMDZ-202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cdsVnlFEJzLSIqNLkMDZ-199" target="cdsVnlFEJzLSIqNLkMDZ-185">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cdsVnlFEJzLSIqNLkMDZ-199" value="register logs receiver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="1532" width="140" height="40" as="geometry" />
+          <mxGeometry x="241" y="1532" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
