@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T10:03:56.166Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="PRgJYSyiYMA3ceE1bVFe" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-04T10:05:00.375Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="CenI571GBW10EiJzBymW" version="23.1.5" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1394" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="600" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -793,13 +793,13 @@
         <mxCell id="J-5pCa5-16U-aiWD50CA-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J-5pCa5-16U-aiWD50CA-36" target="J-5pCa5-16U-aiWD50CA-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="J-5pCa5-16U-aiWD50CA-36" value="exist_white_list" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="J-5pCa5-16U-aiWD50CA-36" value="exist_static_bait_info" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="461" y="2030" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="J-5pCa5-16U-aiWD50CA-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J-5pCa5-16U-aiWD50CA-38" target="J-5pCa5-16U-aiWD50CA-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="J-5pCa5-16U-aiWD50CA-38" value="get_white_list" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="J-5pCa5-16U-aiWD50CA-38" value="get_static_bait_info" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="461" y="2172" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="J-5pCa5-16U-aiWD50CA-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J-5pCa5-16U-aiWD50CA-42" target="J-5pCa5-16U-aiWD50CA-38">
